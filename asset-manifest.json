@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/FrontedHw/static/css/main.073c9b0a.css",
+    "main.js": "/FrontedHw/static/js/main.058ac572.js",
+    "static/js/787.177e23c2.chunk.js": "/FrontedHw/static/js/787.177e23c2.chunk.js",
+    "index.html": "/FrontedHw/index.html",
+    "main.073c9b0a.css.map": "/FrontedHw/static/css/main.073c9b0a.css.map",
+    "main.058ac572.js.map": "/FrontedHw/static/js/main.058ac572.js.map",
+    "787.177e23c2.chunk.js.map": "/FrontedHw/static/js/787.177e23c2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.058ac572.js"
+  ]
+}
