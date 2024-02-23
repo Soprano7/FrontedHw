@@ -1,16 +1,18 @@
+import type {ReactNode} from 'react'
+
 type ButtonPropsType = {
-  callBack: any // НУЖНО ПРОТИПИЗИРОВАТЬ
-  name: any // НУЖНО ПРОТИПИЗИРОВАТЬ
+  onClick: () => void;
+  children: ReactNode;
 };
 
 export const Button = (props: ButtonPropsType) => {
   const callBackHandler = () => {
-    // НУЖНО ДОПИСАТЬ
+    props.onClick();
   };
 
   return (
-    <button id={'hw04-button'} onClick={callBackHandler}>
-      {props.name}
-    </button>
+      <button id={'hw04-button'} onClick={callBackHandler}>
+        {props.children}
+      </button>
   );
 };
